@@ -1,0 +1,269 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/*************************************** Header **************************************/
+
+header{
+    background-color: #dccdcd;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 10vh;
+}
+
+.divMenu:hover{
+    background-color: #f0f0f0;
+    transition-duration: 0.5s ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-underline: none;
+}
+
+.divMenu{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-underline: none;
+}
+
+/*************************************** Général **************************************/
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: moccasin;
+    font-family: "Fira Code", sans-serif;
+}
+
+aside{
+    width: 14vw;
+    padding: 3vw;
+    border: goldenrod 5px double;
+    border-radius: 25px;
+    height: -webkit-fill-available;
+}
+
+/*************************************** Accueil **************************************/
+#accueil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80vh;
+    padding-top: 1vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+#presentation{
+    width: 64vw;
+    padding: 3vw;
+    border: goldenrod 5px double;
+    border-radius: 25px;
+}
+
+#presentation p{
+    width: 40vw;
+}
+
+#imageRemi{
+    width: 20vw;
+    height:  auto;
+    border-radius: 10%;
+
+}
+
+
+
+/*************************************** CV **************************************/
+
+#sectionCv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vh;
+    margin: 2vh 3vw;
+    border: silver 5px double;
+    border-radius: 25px;
+
+}
+
+#parcoursProfessionel{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 64vw;
+    padding: 3vw;
+    border: goldenrod 5px double;
+    border-radius: 25px;
+}
+
+#parcoursProfessionel>div{
+    width: 45%;
+
+}
+
+#competences table{
+    width: 40vw;
+    border-collapse: collapse;
+    border: goldenrod 5px double;
+    border-radius: 25px;
+
+
+}
+
+#competences td{
+    border: goldenrod 5px double;
+    border-radius: 25px;
+    background-color: #ffd6a5;
+}
+
+
+
+.cate td{
+    background-color: #ffabab;
+    font-weight: bold;
+    text-align: center;
+}
+
+.note{
+    text-align: center;
+}
+
+#btnCV{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 25px;
+    margin: 1vh;
+}
+
+#btnCV div{
+    background-color: #9eb67c;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    font-family: "Baloo 2";
+}
+
+#btnCV div:hover{
+    background-color: #689f6d;
+}
+
+/*************************************** Projets **************************************/
+
+.projet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vh;
+    margin: 2vh 3vw;
+    border: silver 5px double;
+    border-radius: 25px;
+}
+
+.projet>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+
+}
+.projet>div>div{
+    margin: 1vw;
+    width: 70vw;
+}
+
+#tmtlink:hover{
+    text-decoration-color: #109664;
+    transition-duration: 0.5s ;
+}
+
+#Pics img{
+    width: 30vw;
+    height: 30vh;
+}
+
+.imgProj div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+    flex-wrap: wrap;
+
+}
+
+.imgProj img{
+
+    margin: 1vw;
+}
+
+#App img{
+    width: 20vw;
+
+}
+
+.competences ul li{
+    padding-top: 1vh;
+}
+
+/*************************************** Contact **************************************/
+
+#contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vh;
+    margin: 2vh 3vw;
+    border: silver 5px double;
+    border-radius: 25px;
+    padding-bottom: 6vh;
+
+}
+
+#contact>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    text-align: justify;
+    flex-wrap: wrap;
+}
