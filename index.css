@@ -57,6 +57,7 @@ main {
     margin: 0 auto;
 }
 
+/* Presentation Section */
 #presentation {
     display: flex;
     align-items: center;
@@ -69,8 +70,8 @@ main {
 
 #presentation img {
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    height: 300px;
+    border-radius: 25%;
     object-fit: cover;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -84,6 +85,52 @@ main {
     text-align: justify;
 }
 
+/* Centers of Interest Section */
+#galerieCentresInteret {
+    margin-top: 2em;
+}
+
+.centreInteret {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.centreInteret h3 {
+    color: #109664;
+    margin-bottom: 1em;
+}
+
+.centreInteret h4 {
+    margin-top: 1em;
+    color: #333;
+}
+
+.imageCentreInteret {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.centreInteret p {
+    text-align: justify;
+}
+
+.ci{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ci *{
+    padding: 15px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     #presentation {
@@ -94,5 +141,9 @@ main {
 
     #presentation img {
         margin-bottom: 1em;
+    }
+
+    .imageCentreInteret {
+        max-width: 100%;
     }
 }
