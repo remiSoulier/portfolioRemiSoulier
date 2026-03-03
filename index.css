@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 10vh;
 }
 
 header h1 {
@@ -90,6 +91,14 @@ main {
     margin-top: 2em;
 }
 
+#planDuSite{
+    margin-top: 2em;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .centreInteret {
     background-color: #fff;
     padding: 1.5em;
@@ -129,6 +138,11 @@ main {
 
 .ci *{
     padding: 15px;
+}
+
+li a{
+    color: #109664;
+    text-decoration: none;
 }
 
 /* Responsive Design */

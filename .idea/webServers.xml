@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="16283ab9-f0f2-4eb1-bc97-3570c705b8fa" name="ovh" url="https://remisoulier.fr">
-        <fileTransfer rootFolder="/homez.2186/remisoulier" accessType="SFTP" host="ssh.cluster100.hosting.ovh.net" port="22" sshConfigId="80a1375c-0050-4ca3-b377-b1afb94f2687" sshConfig="basketq@ssh.cluster100.hosting.ovh.net:22 password">
+        <fileTransfer host="ftp.cluster100.hosting.ovh.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
           </advancedOptions>
